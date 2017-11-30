@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+</head>
+<body>
+    <div class="text-editor">
+        <div class="options">
+            <button class="btn">
+                <span class="fa fa-floppy-o save" aria-hidden="true"></span>
+                <span class="btn-tooltip">You can save your text with this button!</span>
+            </button>
+            <div class="options-wrapper">
+               <div class="options-block">
+                    <button class="btn">
+                        <span class="fa fa-bold" aria-hidden="true"></span>
+                    </button>
+                    <button class="btn">
+                        <span class="fa fa-italic" aria-hidden="true"></span>
+                    </button>
+                    <button class="btn">
+                        <span class="fa fa-underline" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="options-block">
+                    <button class="btn">
+                        <span class="fa fa-align-left" aria-hidden="true"></span>
+                    </button>
+                    <button class="btn">
+                        <span class="fa fa-align-center" aria-hidden="true"></span>
+                    </button>
+                    <button class="btn">
+                        <span class="fa fa-align-right" aria-hidden="true"></span>
+                    </button>
+                    <button class="btn">
+                        <span class="fa fa-align-justify" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="options-block">
+                    <button class="btn">
+                        <span class="fa fa-list-ul" aria-hidden="true"></span>
+                    </button>
+                    <button class="btn">
+                        <span class="fa fa-list-ol" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="options-block">
+                    <button class="btn">
+                        <span class="fa fa-outdent" aria-hidden="true"></span>
+                    </button>
+                    <button class="btn">
+                        <span class="fa fa-indent" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="options-block">
+                    <button class="btn">
+                        <span class="fa fa-link" aria-hidden="true"></span>
+                    </button>
+                    <button class="btn">
+                        <span class="fa fa-chain-broken" aria-hidden="true"></span>
+                    </button>
+                </div>
+                <div class="options-block">
+                    <button class="btn">
+                        <span class="fa fa-picture-o" aria-hidden="true"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <div contenteditable="true" class="editor">
+            hello world!
+        </div>
+    </div>
+<script src="main.js"></script>
+</body>
+</html>
