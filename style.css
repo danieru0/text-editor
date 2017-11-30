@@ -32,6 +32,7 @@ html, body {
     border: none;
     cursor: pointer;
     position: relative;
+    outline: none;
 }
 
 .options button .btn-tooltip {
@@ -70,6 +71,7 @@ html, body {
     transition: 0.3s;
 }
 
+.options button:focus span.fa,
 .options button:hover span.fa {
     color: #ababab;
 }
@@ -86,6 +88,7 @@ html, body {
 .options-wrapper {
     margin-right: 30px;
     display: flex;
+    align-items: center;
 }
 
 .options-wrapper .fa {
@@ -93,6 +96,13 @@ html, body {
     color: #ffffff;
     margin-left: 5px;
     margin-right: 5px;
+}
+
+.options-wrapper input {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    height: 30px;
 }
 
 .options-block {
