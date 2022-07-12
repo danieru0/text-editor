@@ -1,3 +1,3 @@
 # text-editor
 
-live: https://elosiktv.github.io/text-editor/
+live: https://danieru0.github.io/text-editor/
